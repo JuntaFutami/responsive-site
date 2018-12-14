@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #FFFFFF; }
+
+a {
+  color: #757575;
+  text-decoration: none; }
+  a:hover {
+    color: #5c5c5c #828282 #5c5c5c; }
+
+.text-center {
+  text-align: center;
+  font-weight: bold; }
+
+.abel, .button-text .button {
+  font-family: Abel,sans-serif; }
+
+.uppercase, .button-text .button {
+  text-transform: uppercase; }
+
+@media screen and (min-width: 480px) {
+  a:hover {
+    text-decoration: underline; } }
+header img {
+  width: 100%;
+  height: 250px;
+  display: block; }
+
+@media (min-width: 1025px) {
+  img {
+    width: 100%;
+    height: 500px;
+    display: block; } }
+#texts .container {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+#texts h2 {
+  font-size: 1.6rem;
+  margin: 50px 0 20px;
+  color: #B0B0B0; }
+#texts .text-box {
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 1.6rem;
+  -moz-box-sizing: boder-box;
+  -webkit-box-sizing: boder-box;
+  box-sizing: boder-box; }
+#texts h3 {
+  width: 80%;
+  height: 30px;
+  margin: 0 auto;
+  padding: 5px 0 0;
+  color: #4c4c4c;
+  background-color: #B0B0B0; }
+#texts p {
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 40px 0 0px;
+  color: #FFFFFF;
+  background-color: #757575; }
+
+@media (min-width: 1025px) {
+  #texts .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
+  #texts .text-box {
+    margin: 0 10px; } }
+footer {
+  background-color: #B0B0B0;
+  height: 100px; }
+
+.button-text h3 {
+  padding: 10px 0; }
+.button-text .button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  width: 200px;
+  line-height: normal;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #757575;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px; }
+
+@media (min-width: 1025px) {
+  .button:hover {
+    background-color: #5c5c5c;
+    text-decoration: none; } }
+
+/*# sourceMappingURL=style.css.map */
