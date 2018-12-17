@@ -42,7 +42,7 @@ a{
 }
 
 //desktop
-@media screen and(min-width: 1024px){
+@media screen and(min-width: 769px){
     a{
         &:hover{
             text-decoration: underline;
@@ -60,7 +60,7 @@ header{
         background-repeat: no-repeat;
     }
 }
-@media (min-width: 1024px){
+@media (min-width: 769px){
     header{
         .box{
         width: 100%;
@@ -107,7 +107,7 @@ header{
 
 
 //desktop
-@media (min-width: 1024px){
+@media (min-width: 769px){
     
     //text-boxのdesktop
     #texts{
@@ -152,7 +152,7 @@ footer{
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 769spx){
         .button{
           &:hover{
             background-color: darken($keycolor,10%);
